@@ -21,6 +21,6 @@ int main(void)
 			"S" (s),
 			"d" (l));
 
-	printf(" ");
+
 	return (1);
 }
