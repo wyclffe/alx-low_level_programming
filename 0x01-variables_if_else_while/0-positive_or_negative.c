@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/** function_name - find if a random number is + ,- or 0
+/**
+ * main - check if n is < > or = to 0
+ * Description: find if a random number
+ * is + ,- or 0
  * Return: negetive positive or zero
   */
 	int main(void)
@@ -23,6 +26,6 @@
 		}
 		else
 			printf("%d is zero\n", n);
-/* your code goes there */
+
 		return (0);
 	}
