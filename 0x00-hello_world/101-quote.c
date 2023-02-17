@@ -19,5 +19,6 @@ int main(void)
 			"D" (fd),
 			"S" (s),
 			"d" (l));
+	printf("");
 	return (1);
 }
