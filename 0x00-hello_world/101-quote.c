@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - prints to string
- *   * Description: Prints "and that piece of art is useful.." without puts
- *    * Return: 1
-      */
+ *main - prints to string
+ *Description: Prints "and that piece of art is useful.." without puts
+ *Return: i
+*/
 
 int main(void)
 {
@@ -21,6 +21,6 @@ int main(void)
 			"S" (s),
 			"d" (l));
 
-	printf("");
+	printf(" ");
 	return (1);
 }
