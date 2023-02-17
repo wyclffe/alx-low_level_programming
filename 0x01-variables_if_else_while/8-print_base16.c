@@ -3,7 +3,7 @@
 #include <time.h>
 /**
 *  main - start  point
-* Description: print a to z
+* Description: print hexadecimals
 * Return: 0
 */
 		int main(void)
