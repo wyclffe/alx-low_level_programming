@@ -1,17 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
-*  main - start point
-* Description: print 0 to 9
+*  main - start  point
+* Description: print a to z
 * Return: 0
 */
 		int main(void)
 	{
-		int num;
+		int digits;
 
-		for (num = 0; num < 10; num++)
+		for (digits = 0; digits < 10; digits++)
 		{
-			printf("%d", num);
+			putchar(digits + '0');
 		}
-		printf("\n");
+		putchar('\n');
 		return (0);
 	}
