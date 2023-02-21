@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*  main - start point
+*  main - start  point
 * Description: print a to z
 * Return: 0
 */
@@ -10,7 +10,7 @@
 	{
 		int cr;
 
-		for (cr = 'a'; cr <= 'z'; cr++)
+		for (cr = 'a'; cr < 'z'; cr++)
 		{
 			putchar(cr);
 		}
