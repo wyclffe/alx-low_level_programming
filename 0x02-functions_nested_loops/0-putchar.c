@@ -10,7 +10,7 @@
 
 		int i = 0;
 
-		for ( ; i < '\n'; i++)
+		for ( ; i < 9; i++)
 		{
 			_putchar(str[i]);
 		}
