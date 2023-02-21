@@ -5,21 +5,16 @@
  *
  *Return: Always 0.
  */
-		int main(void)
+
+
+		 void print_alphabet(void)
 	{
-		print_alphabet();
+		char cara = 'a';
 
-		return (0);
+		for ( ; cara <= 'z'; cara++)
+		{
+			_putchar(cara);
+		}
+
+		_putchar('\n');
 	}
-
-/*
-*		 void print_alphabet(void)
-*	{
-*		char cara = 'a';
-*
-*		for ( ; cara <= 'z'; cara++)
-*		{
-*			_putchar(cara);
-*		}
-*	}
-*/
