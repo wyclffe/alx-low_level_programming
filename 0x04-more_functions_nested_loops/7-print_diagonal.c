@@ -13,6 +13,7 @@
 			while (i < n)
 			{
 				int j = 0;
+
 				while (j < n)
 				{
 					_putchar(' ');
@@ -21,7 +22,7 @@
 
 				}
 					_putchar('\\');
-
+					_putchar('\n');
 					i++;
 			}
 		}
