@@ -11,13 +11,15 @@
 		if (size > 0)
 		{
 
-		for ( ; i < size; i++)
+		while (i < size)
 	{
-		for ( ; j < size; j++)
+		while (j < size)
 		{
 			putchar('#');
+			j++;
 		}
 		putchar('\n');
+			i++;
 	}
 		putchar('\n');
 		}
