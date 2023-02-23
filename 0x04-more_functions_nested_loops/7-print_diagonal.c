@@ -6,11 +6,11 @@
 */
 		void print_diagonal(int n)
 	{
-		int i = 0;
+		int i = 0, j;
 
 			while (i < n && n > 0)
 			{
-				int j = 0;
+				 j = 0;
 
 				while (j < n)
 				{
