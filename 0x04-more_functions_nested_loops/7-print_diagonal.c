@@ -18,7 +18,7 @@
 					_putchar(' ');
 
 				}
-					_putchar('\');
+					_putchar('\\');
 
 				i++;
 			}
