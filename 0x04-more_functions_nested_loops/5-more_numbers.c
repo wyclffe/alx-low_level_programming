@@ -11,9 +11,9 @@
 
 		while (j < 10)
 		{
-			int i = 0;
+			int i;
 
-			for ( ; i < 15 ; i++)
+			for (i = 0; i < 15 ; i++)
 			{
 			_putchar(i + '0');
 
