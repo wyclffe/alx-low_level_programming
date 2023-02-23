@@ -12,7 +12,7 @@
 			{
 				 j = 0;
 
-				while (j < n)
+				while (j < i)
 				{
 					_putchar(' ');
 
