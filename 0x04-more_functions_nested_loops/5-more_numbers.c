@@ -11,12 +11,15 @@
 
 		while (j < 10)
 		{
-			char i = 0;
+			int i = 0;
 
 			for ( ; i < 15 ; i++)
 			{
 			_putchar(i + '0');
+
 			}
+			_putchar(i + '\\');
+
 			j++;
 		}
 		_putchar('\n');
