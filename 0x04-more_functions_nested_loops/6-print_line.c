@@ -8,7 +8,7 @@
 	{
 		if (n > 0)
 		{
-			char i = 0;
+			int i = 0;
 
 			while (i < n)
 			{
