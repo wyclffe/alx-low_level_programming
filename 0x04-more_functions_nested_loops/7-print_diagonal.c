@@ -8,13 +8,16 @@
 	{
 		int i = 0;
 
-		if (n > 0 && i < n)
+		if (n > 0)
 		{
 			while (i < n)
 			{
-				while (i < n)
+				int j = 0;
+				while (j < n)
 				{
 					_putchar(' ');
+
+					j++;
 
 				}
 					_putchar('\\');
