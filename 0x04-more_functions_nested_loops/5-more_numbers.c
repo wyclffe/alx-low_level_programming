@@ -13,9 +13,8 @@
 
 		while (j < 10)
 		{
-			int i;
 
-			for (i = 0; i < 15 ; i++)
+			for (n = 0; n < 15 ; n++)
 			{
 			c = n;
 			if (n > 9)
