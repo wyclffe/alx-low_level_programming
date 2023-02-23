@@ -7,6 +7,8 @@
 
 	void print_numbers(void)
 	{
+		char n, c;
+
 		int j = 0;
 
 		while (j < 10)
@@ -23,10 +25,10 @@
 			}
 			_putchar('0' + c);
 			}
-			_putchar(i + '\\');
+			_putchar(i + '\n');
 			j++;
 
 		}
-		_putchar('\n');
+
 	}
 
