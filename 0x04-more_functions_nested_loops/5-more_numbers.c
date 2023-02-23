@@ -16,15 +16,16 @@
 
 			for (n = 0; n < 15 ; n++)
 			{
-			c = n;
-			if (n > 9)
-			{
-				_putchar('1');
-				c = n % 10;
+				c = n;
+				if (n > 9)
+				{
+					_putchar('1');
+					c = n % 10;
+				}
+				_putchar('0' + c);
 			}
-			_putchar('0' + c);
-			}
-			_putchar(i + '\n');
+
+			_putchar('\n');
 			j++;
 
 		}
