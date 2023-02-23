@@ -7,7 +7,7 @@
 */
 		void print_most_numbers(void)
 	{
-		char = 0;
+		int i = 0;
 
 		for ( ; i < 10 ; i++)
 		{
