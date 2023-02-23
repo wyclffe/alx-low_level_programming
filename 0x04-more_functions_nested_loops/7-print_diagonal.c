@@ -4,28 +4,18 @@
  * @n: nuumber of \
  * Return: void
 */
-		void print_diagonal(int n)
+void print_diagonal(int n)
+{
+	int i, j;
+	for (i = 0; i < n; i++)
 	{
-		int i = 0, j;
-
-		while (i < n && n > 0)
-			{
-			if (n == 0 && n < 0)
-			{
-				_putchar('\n');
-			}
-			else
-				{
-				 j = 0;
-
-				while (j < i)
-				{
-					_putchar(' ');
-					j++;
-				}
-				_putchar('\\');
-				_putchar('\n');
-				i++;
-				}
-			}
+		for (j = 0; j < i; j++)
+		{
+			_putchar(' ');
+		}
+		_putchar(92);
+		if (i < (n - 1))
+			_putchar('\n');
 	}
+	_putchar('\n');
+}
