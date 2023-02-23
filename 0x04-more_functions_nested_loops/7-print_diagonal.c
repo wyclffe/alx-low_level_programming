@@ -8,9 +8,7 @@
 	{
 		int i = 0;
 
-		if (n > 0)
-		{
-			while (i < n)
+			while (i < n && n > 0)
 			{
 				int j = 0;
 
@@ -25,8 +23,8 @@
 					_putchar('\n');
 					i++;
 			}
-		}
-		else
+
+		if (n == 0)
 			_putchar('\n');
 
 	}
