@@ -11,9 +11,13 @@
 
 	while (str[i] != '\0')
 	{
+
 		_putchar(str[i]);
 
 		i = i + 2;
+		if (str[i] == '.')
+			break;
+
 	}
 	_putchar('\n');
 }
