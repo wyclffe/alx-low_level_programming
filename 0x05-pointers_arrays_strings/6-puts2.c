@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
-*puts2 - funtion to print string from pointer every other char
-*@str: an array of char
-* Return:  void
+* puts2 - prints xters of a string
+* @str: the used string reference
+* Return: 0
 */
-	void puts2(char *str)
+
+void puts2(char *str)
 {
 	int i = 0;
 
 	while (str[i] != '\0')
 	{
-
-		_putchar(str[i]);
-
-		i = i + 2;
-		if (str[i] == '.')
-			break;
-
+		if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
+		i++;
 	}
 	_putchar('\n');
 }
