@@ -3,7 +3,7 @@
 /**
 *puts2 - funtion to print string from pointer every other char
 *@str: an array of char
-* Return: void
+* Return:  void
 */
 	void puts2(char *str)
 {
