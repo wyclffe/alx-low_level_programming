@@ -19,5 +19,7 @@
 
 		char *cap_string(char *);
 
+		void print_buffer(char *b, int size);
+
 
 		
