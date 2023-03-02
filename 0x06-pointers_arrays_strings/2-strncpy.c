@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcpy - copy a string
+ * _strncpy - copy a string
  * @dest: the destination string
  * @src: the src
  * @n: size
@@ -19,5 +19,5 @@
 		{
 			dest[i] = '\0';
 		}
-			return dest;
+			return (dest);
 	}
