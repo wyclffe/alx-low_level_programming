@@ -6,7 +6,7 @@ char *postfix_match(char *str, char *postfix);
 int wildcmp(char *s1, char *s2);
 
 /**
- * strlen_no_wilds - Returns the length of a string,
+ * strlen_no_wild - Returns the length of a string,
  *                   ignoring wildcard characters.
  * @str: The string to be measured.
  *
